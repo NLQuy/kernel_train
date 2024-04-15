@@ -1,0 +1,8 @@
+#!/bin/sh
+insmod kcipher.ko
+mknod /dev/kcipher c 137 0
+chmod 666 /dev/kcipher
+mount -t proc none /proc
+mount -t sysfs none /sys
+mknod -m 666 /dev/ttyS0 c 4 64
+setsid /bin/cttyhack setuidgid 1000 /bin/sh

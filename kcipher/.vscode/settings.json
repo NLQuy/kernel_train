@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "init.h": "c",
+        "sxattr_uffd.h": "c",
+        "ioctl.h": "c"
+    }
+}

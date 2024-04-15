@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "init.h": "c",
+        "typeinfo": "c",
+        "string.h": "c",
+        "sxattr_uffd.h": "c",
+        "stdint.h": "c",
+        "userfaultfd.h": "c",
+        "tty.h": "c",
+        "tty_flags.h": "c"
+    }
+}
